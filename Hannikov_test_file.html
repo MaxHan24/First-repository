@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>������ HTML ��������</title>
+    <title>Пример HTML страницы</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,18 +18,27 @@
             padding: 10px 15px;
             font-size: 16px;
             cursor: pointer;
+            background-color: #28a745; /* Зеленый цвет */
+            color: white; /* Белый текст */
+            border: none; /* Без границы */
+            border-radius: 5px; /* Закругленные углы */
+            transition: background-color 0.3s; /* Плавный переход цвета */
+        }
+        button:hover {
+            background-color: #218838; /* Темно-зеленый при наведении */
         }
     </style>
 </head>
 <body>
 
-    <h1>����� ���������� �� ��� ���-��������!</h1>
-    <p>��� ������ ������� HTML-�������� � �������.</p>
-    <button onclick="showMessage()">����� ����!</button>
+    <h1>Добро пожаловать на мою веб-страницу!</h1>
+    <p>Это пример простой HTML-страницы с кнопкой.</p>
+    <button onclick="showMessage()">Нажми на меня!</button>
+    <p>Надеюсь, вам понравится этот пример! Вы можете изменить код и поэкспериментировать.</p>
 
     <script>
         function showMessage() {
-            alert("������! �� ������ �� ������.");
+            alert("Привет! Вы нажали на кнопку.");
         }
     </script>
 
